@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My weather</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div>
+          <h1 id="w-location"></h1>
+          <h3 id="w-temp"></h3>
+          <img id="w-icon" />
+
+          <h5 id="w-temp-min"></h5>
+          <h5 id="w-temp-max"></h5>
+          <h5 id="w-feels-like"></h5>
+          <h5 id="w-wind"></h5>
+          <h5 id="w-temp-max"></h5>
+
+          <!-- Trigger/Open The Modal -->
+          <!-- <button id="btn">Change Location</button> -->
+        </div>
+      </div>
+    </div>
+    <!-- Form for city and state -->
+    <div>
+      <h2>HTML Forms</h2>
+      <form id="w-form">
+        <div>
+          <label for="city">City</label>
+          <input type="text" id="city" />
+        </div>
+        <!-- <div>
+          <label for="state">State</label>
+          <input type="text" id="state" />
+        </div> -->
+        <!-- <input id="w-change-btn" type="submit" value="Submit" /> -->
+        <button id="w-change-btn">Submit Here</button>
+      </form>
+    </div>
+    <script src="storage.js"></script>
+    <script src="weather.js"></script>
+    <script src="ui.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
